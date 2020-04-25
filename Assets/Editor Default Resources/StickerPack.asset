@@ -1,0 +1,582 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7817154693037498957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation2
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation2
+  Fps: 15
+  Repetitions: 0
+  Index: 11
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: a28c81412920149d9b7565b704b2878b, type: 3}
+--- !u!114 &-7776359692882321084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation25
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation25
+  Fps: 15
+  Repetitions: 0
+  Index: 17
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 5da770e5c24034f18908ce776a74adf1, type: 3}
+--- !u!114 &-7205245014359134205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation27
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation27
+  Fps: 15
+  Repetitions: 0
+  Index: 25
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 4bbf3a0b59dc44ad4b42d4bad2c6365d, type: 3}
+--- !u!114 &-7149681128480239246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation7
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation7
+  Fps: 15
+  Repetitions: 0
+  Index: 22
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 2f2fc2e80bd5343be8cee83828ec6666, type: 3}
+--- !u!114 &-6141407213771292092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation4
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation4
+  Fps: 15
+  Repetitions: 0
+  Index: 20
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 42b5081b439da4e37bcb3cbcdf089a66, type: 3}
+--- !u!114 &-5974029882190532363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation24
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation24
+  Fps: 15
+  Repetitions: 0
+  Index: 16
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 5a9193cf3145740649d3ad29c3de43b8, type: 3}
+--- !u!114 &-5412622208309613215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation5
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation5
+  Fps: 15
+  Repetitions: 0
+  Index: 21
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: b4ea934f6c91a4c22b25353caa2cf985, type: 3}
+--- !u!114 &-5299972435625371003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation21
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation21
+  Fps: 15
+  Repetitions: 0
+  Index: 13
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 3b930d081e0ae4951ba760dbdc1a65f1, type: 3}
+--- !u!114 &-4570949393313083944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostAnimation12
+  m_EditorClassIdentifier: 
+  Name: WostAnimation12
+  Fps: 15
+  Repetitions: 0
+  Index: 4
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: fe908f706cf0e441a86d2072dd51eeff, type: 3}
+--- !u!114 &-2928738270667102201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation26
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation26
+  Fps: 15
+  Repetitions: 0
+  Index: 18
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 03cffc74ad2b14b9e84fd1625184d18e, type: 3}
+--- !u!114 &-2095874845368902549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation14
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation14
+  Fps: 15
+  Repetitions: 0
+  Index: 9
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 502e6514ef2c548edaa0a804d562ea78, type: 3}
+--- !u!114 &-1860064902020626241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation17
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation17
+  Fps: 15
+  Repetitions: 0
+  Index: 3
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: a4cf9892d7403434da67b72f0f7565c5, type: 3}
+--- !u!114 &-1784980070318402785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation13
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation13
+  Fps: 15
+  Repetitions: 0
+  Index: 8
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: db42d65834f4d494f9f47e6ab3ca1c31, type: 3}
+--- !u!114 &-1756088568497743315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation23
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation23
+  Fps: 15
+  Repetitions: 0
+  Index: 15
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 40bc7eda3eafe4945867b1edea537118, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2c7e5841a453e4cb569bce93109c45, type: 3}
+  m_Name: StickerPack
+  m_EditorClassIdentifier: 
+  title: Wosta stickers
+  bundleId: stickers
+  Signing:
+    AutomaticSigning: 0
+    ProvisioningProfile: 
+    ProvisioningProfileSpecifier: 
+  Icons:
+    appStore: {fileID: 2800000, guid: 106cf7b4594ca4fe0a18ed4fcfaea642, type: 3}
+    messagesAppStore: {fileID: 2800000, guid: a62b838f2fe524899add03b20f482b73, type: 3}
+    Settings:
+      BackgroundColor: {r: 0.7141897, g: 0.6991782, b: 0.89705884, a: 1}
+      FillPercentage: 100
+      FilterMode: 2
+      ScaleMode: 2
+    Override: 1
+    messagesiPadPro2: {fileID: 2800000, guid: d6744e8e2adfd43cab3ef9e169029d0e, type: 3}
+    messagesiPad2: {fileID: 2800000, guid: 8185e0c0520464fe7a1c0f9e7acd93ee, type: 3}
+    messagesiPhone2: {fileID: 2800000, guid: e2c18437431584c5dbe70a760b0c354b, type: 3}
+    messagesiPhone3: {fileID: 2800000, guid: 161a2b63c13f744f09f6518b30322427, type: 3}
+    messagesSmall2: {fileID: 2800000, guid: bb24c85cda1244a9b849cfad93d0dbff, type: 3}
+    messagesSmall3: {fileID: 2800000, guid: 3c22458c71d4c4416afbf554beba6c95, type: 3}
+    messages2: {fileID: 2800000, guid: 1a45815228e844d24874a5c1ceca39f0, type: 3}
+    messages3: {fileID: 2800000, guid: 951b09121ac55487ebb5f2de13eafa80, type: 3}
+    iPhoneSettings2: {fileID: 2800000, guid: 5e1772bdfb5e04b52b29f00148534e78, type: 3}
+    iPhoneSettings3: {fileID: 2800000, guid: fe5af8380a6bc46b48a80de213bf8849, type: 3}
+    iPadSettings2: {fileID: 2800000, guid: 5e1772bdfb5e04b52b29f00148534e78, type: 3}
+  size: 1
+  Stickers:
+  - {fileID: 922883325116165145}
+  - {fileID: 5398570478391104856}
+  - {fileID: 5773504601560233952}
+  - {fileID: -1860064902020626241}
+  - {fileID: -4570949393313083944}
+  - {fileID: 8559128813654952967}
+  - {fileID: 8932595103630499610}
+  - {fileID: 8896647357190055393}
+  - {fileID: -1784980070318402785}
+  - {fileID: -2095874845368902549}
+  - {fileID: 2056143199467683428}
+  - {fileID: -7817154693037498957}
+  - {fileID: 5906698001505444810}
+  - {fileID: -5299972435625371003}
+  - {fileID: 181439377140722642}
+  - {fileID: -1756088568497743315}
+  - {fileID: -5974029882190532363}
+  - {fileID: -7776359692882321084}
+  - {fileID: -2928738270667102201}
+  - {fileID: 8467852123259187955}
+  - {fileID: -6141407213771292092}
+  - {fileID: -5412622208309613215}
+  - {fileID: -7149681128480239246}
+  - {fileID: 8638747570138013657}
+  - {fileID: 793514608340206196}
+  - {fileID: -7205245014359134205}
+  - {fileID: 4517186964614678733}
+--- !u!114 &181439377140722642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation22
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation22
+  Fps: 15
+  Repetitions: 0
+  Index: 14
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 479a83f191ceb4b05b19754fe1e79cd6, type: 3}
+--- !u!114 &793514608340206196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation9
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation9
+  Fps: 15
+  Repetitions: 0
+  Index: 24
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 3580ab4a52763492ba222011da87237f, type: 3}
+--- !u!114 &922883325116165145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation18
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation18
+  Fps: 15
+  Repetitions: 0
+  Index: 0
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 82ff0b05d761642a2a3bfcc1d475b11f, type: 3}
+--- !u!114 &2056143199467683428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation15
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation15
+  Fps: 15
+  Repetitions: 0
+  Index: 10
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: c5532da79355a4a86a5d7305ecd8f5b3, type: 3}
+--- !u!114 &4517186964614678733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation28
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation28
+  Fps: 15
+  Repetitions: 0
+  Index: 26
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: b6cf3234039f54965b4762619a64d809, type: 3}
+--- !u!114 &5398570478391104856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation6
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation6
+  Fps: 15
+  Repetitions: 0
+  Index: 1
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: ce20d0a7d545a48bfba0acdf8dc4d078, type: 3}
+--- !u!114 &5773504601560233952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation16
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation16
+  Fps: 15
+  Repetitions: 0
+  Index: 2
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 56e3342e9ee904211ac4525e86c1cf53, type: 3}
+--- !u!114 &5906698001505444810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation20
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation20
+  Fps: 15
+  Repetitions: 0
+  Index: 12
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: fa1317144a8724f26ab992bcc2ce2667, type: 3}
+--- !u!114 &8467852123259187955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation3
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation3
+  Fps: 15
+  Repetitions: 0
+  Index: 19
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 412df2ed4335f4090a71d3e04c9ca3be, type: 3}
+--- !u!114 &8559128813654952967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation1
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation1
+  Fps: 15
+  Repetitions: 0
+  Index: 5
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 7c659f47b76df4bd79eb147590e80fe0, type: 3}
+--- !u!114 &8638747570138013657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation8
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation8
+  Fps: 15
+  Repetitions: 0
+  Index: 23
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: bc9c5ebb314c14fe0a92a757180b8c13, type: 3}
+--- !u!114 &8896647357190055393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation11
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation11
+  Fps: 15
+  Repetitions: 0
+  Index: 7
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 7cde282d13a19461e9e4bf2b185760e5, type: 3}
+--- !u!114 &8932595103630499610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd70bedd14da4dadeecf397382724, type: 3}
+  m_Name: WostaAnimation10
+  m_EditorClassIdentifier: 
+  Name: WostaAnimation10
+  Fps: 15
+  Repetitions: 0
+  Index: 6
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: 63981f54b08214edbae04e2e97215958, type: 3}

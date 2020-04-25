@@ -1,0 +1,5 @@
+export_options(
+    provisioningProfiles: {
+        "com.unboxingsolutions.wosta.stickers" => "0dc5be22-2e24-43d8-9d2c-e5a347785fd3"
+    }
+)

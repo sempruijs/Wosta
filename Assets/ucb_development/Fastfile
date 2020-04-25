@@ -1,0 +1,9 @@
+lane :use_stickers_profile do |options|
+    profile_path = File.join(options[:project_dir], 'Assets/ucb_development/Unboxing_Solutions_Development.mobileprovision')
+    FastlaneCore::ProvisioningProfile.install(profile_path)
+    update_project_provisioning(
+        xcodeproj: 'Unity-iPhone.xcodeproj',
+        target_filter: 'Unity-iPhone-Stickers',
+        profile: profile_path
+    )
+end

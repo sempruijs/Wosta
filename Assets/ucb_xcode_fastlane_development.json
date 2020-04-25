@@ -1,0 +1,9 @@
+{
+  "fastfile": "Assets/ucb_development/Fastfile",
+  "gymfile": "Assets/ucb_development/Gymfile",
+  "lanes": {
+    "pre_build": "use_stickers_profile",
+    "post_build": ""
+  }
+}
+
