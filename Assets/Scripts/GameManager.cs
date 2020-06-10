@@ -39,9 +39,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject dayBackground;
     public GameObject nightBackground;
-
-    public GameObject[] lights;   
-    public GameObject nightLight;
+    
     // --------------------------------------------------------------
     [Header("Progress")] 
     [Tooltip("Number of points")]
@@ -201,20 +199,10 @@ public class GameManager : MonoBehaviour
             print("day");
             dayBackground.transform.position = dayMode;
             nightBackground.transform.position = nightMode;
-            
-            foreach(GameObject light in lights) {
-                light.SetActive(true);
-            }
-            nightLight.SetActive(false);
         } else {
             print("night");
             dayBackground.transform.position = nightMode;
             nightBackground.transform.position = dayMode;
-
-            foreach(GameObject light in lights) {
-                light.SetActive(false);
-            }
-            nightLight.SetActive(true);
         }
     }
     public void EatEnemy(GameObject subject, GameObject enemy)

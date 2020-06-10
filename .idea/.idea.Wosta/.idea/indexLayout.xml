@@ -14,6 +14,10 @@
       <Path>Library/PackageCache/com.unity.ide.vscode@1.1.4</Path>
       <Path>Library/PackageCache/com.unity.mathematics@1.1.0</Path>
       <Path>Library/PackageCache/com.unity.purchasing@2.0.6</Path>
+      <Path>Library/PackageCache/com.unity.render-pipelines.core@7.4.1</Path>
+      <Path>Library/PackageCache/com.unity.render-pipelines.lightweight@7.4.1</Path>
+      <Path>Library/PackageCache/com.unity.render-pipelines.universal@7.4.1</Path>
+      <Path>Library/PackageCache/com.unity.shadergraph@7.4.1</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.11</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.9</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@2.0.1</Path>
@@ -23,6 +27,7 @@
       <Path>ProjectSettings</Path>
     </explicitIncludes>
     <explicitExcludes>
+      <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
