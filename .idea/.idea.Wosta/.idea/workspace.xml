@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hats.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,6 @@
         <option value="$PROJECT_DIR$/Assets/ucb_development/Fastfile" />
         <option value="$PROJECT_DIR$/Assets/ucb_xcode_fastlane_development.json" />
         <option value="$PROJECT_DIR$/Assets/ucb_distribution/Gymfile" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Hats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TombstoneText1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TombstoneText.cs" />
@@ -73,6 +72,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.vectorgraphics@2.0.0-preview.2/Runtime/VectorSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RandomSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hats.cs" />
       </list>
     </option>
   </component>
@@ -90,6 +90,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -147,7 +148,7 @@
       <workItem from="1584293832429" duration="38000" />
       <workItem from="1584399824768" duration="180000" />
       <workItem from="1591797205779" duration="539000" />
-      <workItem from="1593587946050" duration="79000" />
+      <workItem from="1593587946050" duration="1071000" />
     </task>
     <servers />
   </component>

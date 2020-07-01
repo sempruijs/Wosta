@@ -38,6 +38,9 @@ public class Hats : MonoBehaviour
    {
        Unlock(0);
        Unlock(1);
+       Unlock(7);
+       Unlock(8);
+       Unlock(9);
    }
 
    private void Update()
