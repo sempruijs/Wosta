@@ -4,7 +4,22 @@ using UnityEngine;
 
 public class PersistencyManager : MonoBehaviour
 {
-    public static PersistencyManager instance;
+    private static PersistencyManager _instance;
+    public static PersistencyManager instance {
+        get {
+            return _instance;
+        }
+    }
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        } else {
+            _instance = this;
+        }
+    }
 
     private static string HighScoreKey = "HighScore";
     private static string AccelerometerKey = "Accelerometer";
@@ -68,17 +83,17 @@ public class PersistencyManager : MonoBehaviour
         }
     }
 
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else if (instance != this)
-        {
-            Destroy(gameObject);
-        }
-
-        DontDestroyOnLoad(gameObject);
-    }
+    // private void Awake()
+    // {
+    //     if (instance == null)
+    //     {
+    //         instance = this;
+    //     }
+    //     else if (instance != this)
+    //     {
+    //         Destroy(gameObject);
+    //     }
+    //
+    //     DontDestroyOnLoad(gameObject);
+    // }
 }

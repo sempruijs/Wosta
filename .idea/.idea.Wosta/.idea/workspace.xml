@@ -24,11 +24,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Highscore is now stored in the game center menu">
+    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Better UI preformance">
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/GameCenter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/GameCenter.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PersistencyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PersistencyManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseButtonHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/tutorialHandeler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PersistencyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ucb_xcode_fastlane.json" />
         <option value="$PROJECT_DIR$/Assets/ucb_xcode_fastlane.json" />
         <option value="$PROJECT_DIR$/Assets/ucb/Fastfile" />
@@ -98,17 +99,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Hats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCenterManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PersistencyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1UhahiOZBb7dd4t0JrEY0k46C1O" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -177,7 +182,7 @@
       <workItem from="1593587946050" duration="1763000" />
       <workItem from="1595884333293" duration="199000" />
       <workItem from="1597070262275" duration="3000" />
-      <workItem from="1597070331009" duration="2271000" />
+      <workItem from="1597070331009" duration="3489000" />
     </task>
     <task id="LOCAL-00001" summary="Add GameCenterManager.cs">
       <created>1597070389806</created>
@@ -193,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597072238954</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Better UI preformance">
+      <created>1597072933817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597072933817</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,23 +226,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/Assets/iMessageStickerUnity" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add GameCenterManager.cs" />
     <MESSAGE value="Highscore is now stored in the game center menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Highscore is now stored in the game center menu" />
+    <MESSAGE value="Better UI preformance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better UI preformance" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3349" y="370" key="SettingsEditor" timestamp="1591797320511">
       <screen x="2560" y="23" width="2560" height="1417" />
     </state>
     <state x="3349" y="370" key="SettingsEditor/-1280.912.1280.777/0.23.2560.1417/2560.23.2560.1417@2560.23.2560.1417" timestamp="1591797320511" />
-    <state x="-1260" y="811" key="Vcs.Push.Dialog.v2" timestamp="1597072240639">
+    <state x="-1260" y="811" key="Vcs.Push.Dialog.v2" timestamp="1597072937629">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1260" y="811" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597072240639" />
+    <state x="-1260" y="811" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597072937629" />
     <state x="320" y="665" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597070393486" />
     <state x="-1057" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1597072214020">
       <screen x="-1440" y="-338" width="1440" height="2537" />

@@ -123,7 +123,6 @@ public class GameManager : MonoBehaviour
     private void InitGame()
     {
         state = State.Menu;
-        gameCenterManager.PostScoreOnLeaderBoard(PersistencyManager.instance.HighScore);
         ResetScore();
         DisplayManager.instance.UpdateUi();
     }
@@ -142,6 +141,7 @@ public class GameManager : MonoBehaviour
         stateBeforeSettings = State.Menu;
         AudioManager.instance.Menu();
         DisplayManager.instance.UpdateUi();
+        gameCenterManager.PostScoreOnLeaderBoard(PersistencyManager.instance.HighScore);
     }
 
     public void Fish()
