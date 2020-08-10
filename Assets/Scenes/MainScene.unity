@@ -7851,7 +7851,7 @@ MonoBehaviour:
   height: 9
   dayBackground: {fileID: 788730308}
   nightBackground: {fileID: 2038683101}
-  gameCenterManager: {fileID: 0}
+  gameCenterManager: {fileID: 1414118072}
   score: 0
   level: 0
   ScorePrefab: {fileID: 6222848059922838544, guid: 07d7b1480ecb44309b4a25566b5a107c,
@@ -7862,7 +7862,7 @@ MonoBehaviour:
   maximumPointsPerEnemy: 1000
   initialLevel: 1
   numberOfLevels: 100
-  playerController: {fileID: 0}
+  playerController: {fileID: 646158757}
   state: 0
   stateBeforeSettings: 0
 --- !u!4 &590342737

@@ -62,6 +62,21 @@ public class DisplayManager : MonoBehaviour
 
     private void Update()
     {
+        if (GameManager.instance.state == GameManager.State.Playing)
+        {
+            if (Input.GetAxis("Options") == 1)
+            {
+                GameManager.instance.Pause();
+                Hilight(Resume);
+            }
+        }
+        if (GameManager.instance.state == GameManager.State.NextLevel) {
+                Hilight(NextLevel);
+        }
+    }
+
+    public void UpdateUi()
+    {
         inGameHud.SetActive(inGameStates.Contains(GameManager.instance.state));
         mainMenu.SetActive(GameManager.instance.state == GameManager.State.Menu);
         pauseMenu.SetActive(GameManager.instance.state == GameManager.State.Pause);
@@ -81,17 +96,6 @@ public class DisplayManager : MonoBehaviour
         highScore.text = PersistencyManager.instance.HighScore.ToString();
         highScoreInMenu.text = PersistencyManager.instance.HighScore.ToString() + " !";
         WosCoins.text = PersistencyManager.instance.WosCoins.ToString();
-        if (GameManager.instance.state == GameManager.State.Playing)
-        {
-            if (Input.GetAxis("Options") == 1)
-            {
-                GameManager.instance.Pause();
-                Hilight(Resume);
-            }
-        }
-        if (GameManager.instance.state == GameManager.State.NextLevel) {
-                Hilight(NextLevel);
-        }
     }
 
     public void ChangeHat(string to)

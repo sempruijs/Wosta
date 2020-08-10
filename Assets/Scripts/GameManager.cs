@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject player;
 
     [Tooltip("Initial speed (at the start of new level)")]
-    public float initialSpeed;
+    public float initialSpeed = 3;
     
     [Tooltip("Position staring new level")]
     public Vector3 initialPosition;
@@ -106,15 +106,18 @@ public class GameManager : MonoBehaviour
             stateBeforeSettings = state;
         }
         state = State.Settings;
+        DisplayManager.instance.UpdateUi();
     }
 
     public void credit() {
         state = State.Credit;
+        DisplayManager.instance.UpdateUi();
     }
 
     public void CloseSettings()
     {
         state = stateBeforeSettings;
+        DisplayManager.instance.UpdateUi();
     }
 
     private void InitGame()
@@ -122,6 +125,7 @@ public class GameManager : MonoBehaviour
         state = State.Menu;
         gameCenterManager.PostScoreOnLeaderBoard(PersistencyManager.instance.HighScore);
         ResetScore();
+        DisplayManager.instance.UpdateUi();
     }
 
     private void Start()
@@ -129,7 +133,7 @@ public class GameManager : MonoBehaviour
         Application.targetFrameRate = 300;
         
         playerController = player.GetComponent<PlayerController>();
-
+        DisplayManager.instance.UpdateUi();
         Menu();
     }
 
@@ -137,21 +141,25 @@ public class GameManager : MonoBehaviour
         state = State.Menu;
         stateBeforeSettings = State.Menu;
         AudioManager.instance.Menu();
+        DisplayManager.instance.UpdateUi();
     }
 
     public void Fish()
     {
         state = State.Fish;
+        DisplayManager.instance.UpdateUi();
     }
 
     public void HighScore()
     {
         state = State.HighScore;
+        DisplayManager.instance.UpdateUi();
     }
 
     public void Tutorial()
     {
         state = State.Tutorial;
+        DisplayManager.instance.UpdateUi();
     }
 
     public void Play()
@@ -183,10 +191,12 @@ public class GameManager : MonoBehaviour
                 state = State.Playing;
                 break;
         }
+        DisplayManager.instance.UpdateUi();
     }
 
     public bool IsPaused()
     {
+        DisplayManager.instance.UpdateUi();
         return state == State.Pause || state == State.Settings && stateBeforeSettings == State.Pause;
     }
 
@@ -196,6 +206,7 @@ public class GameManager : MonoBehaviour
         {
             state = State.Pause;
         }
+        DisplayManager.instance.UpdateUi();
     }
     
     public void ToggleTime() {
@@ -241,6 +252,7 @@ public class GameManager : MonoBehaviour
                 Destroy(enemy);
                 gameCenterManager.PostScoreOnLeaderBoard(PersistencyManager.instance.HighScore);
                 AudioManager.instance.Dead();
+                DisplayManager.instance.UpdateUi();
             }
         }
     }
@@ -309,8 +321,7 @@ public class GameManager : MonoBehaviour
     private void LoadLevel()
     {
         state = State.Loading;
-        
-        
+        DisplayManager.instance.UpdateUi();
         CameraManager.instance.Transition(PrepareNextLevel, LoadingComplete);
     }
 
@@ -323,6 +334,7 @@ public class GameManager : MonoBehaviour
     private void LoadingComplete()
     {
         state = State.Playing;
+        DisplayManager.instance.UpdateUi();
     }
 
     private void NextLevel()
@@ -333,6 +345,7 @@ public class GameManager : MonoBehaviour
             AddWosCoin(level);
             AudioManager.instance.LevelCompleted();
             gameCenterManager.PostScoreOnLeaderBoard(score);
+            DisplayManager.instance.UpdateUi();
         }
     }
 
@@ -341,7 +354,9 @@ public class GameManager : MonoBehaviour
         if (state == State.Playing)
         {
             state = State.CompletedGame;
+            DisplayManager.instance.UpdateUi();
             AudioManager.instance.LevelCompleted();
+            gameCenterManager.PostScoreOnLeaderBoard(score);
         }
     }
     

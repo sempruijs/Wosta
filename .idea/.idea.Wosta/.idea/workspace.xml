@@ -24,9 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Add GameCenterManager.cs">
+    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Highscore is now stored in the game center menu">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCenterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameCenterManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +78,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ControlerSupportIOS.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseButtonHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/tutorialHandeler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PersistencyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ucb_xcode_fastlane.json" />
@@ -97,6 +97,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RandomSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCenterManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
@@ -176,7 +177,7 @@
       <workItem from="1593587946050" duration="1763000" />
       <workItem from="1595884333293" duration="199000" />
       <workItem from="1597070262275" duration="3000" />
-      <workItem from="1597070331009" duration="1612000" />
+      <workItem from="1597070331009" duration="2271000" />
     </task>
     <task id="LOCAL-00001" summary="Add GameCenterManager.cs">
       <created>1597070389806</created>
@@ -185,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597070389806</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Highscore is now stored in the game center menu">
+      <created>1597072238954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597072238954</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,21 +219,23 @@
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add GameCenterManager.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add GameCenterManager.cs" />
+    <MESSAGE value="Highscore is now stored in the game center menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Highscore is now stored in the game center menu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3349" y="370" key="SettingsEditor" timestamp="1591797320511">
       <screen x="2560" y="23" width="2560" height="1417" />
     </state>
     <state x="3349" y="370" key="SettingsEditor/-1280.912.1280.777/0.23.2560.1417/2560.23.2560.1417@2560.23.2560.1417" timestamp="1591797320511" />
-    <state x="320" y="665" key="Vcs.Push.Dialog.v2" timestamp="1597070393486">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="320" y="665" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597070393486" />
-    <state x="-1057" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1597071628006">
+    <state x="-1260" y="811" key="Vcs.Push.Dialog.v2" timestamp="1597072240639">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1057" y="265" width="672" height="678" key="search.everywhere.popup/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597071628006" />
+    <state x="-1260" y="811" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597072240639" />
+    <state x="320" y="665" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597070393486" />
+    <state x="-1057" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1597072214020">
+      <screen x="-1440" y="-338" width="1440" height="2537" />
+    </state>
+    <state x="-1057" y="265" width="672" height="678" key="search.everywhere.popup/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597072214020" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
