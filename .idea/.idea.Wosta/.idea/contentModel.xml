@@ -5,14 +5,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Controller Tester" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="DetectUnknownControllerMappings.cs" t="Include" />
-            <e p="Editor" t="Include">
-              <e p="TestGamepadEditor.cs" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="Editor" t="Include">
           <e p="CloudBuild.cs" t="Include" />
         </e>
