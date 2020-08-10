@@ -39,6 +39,9 @@ public class GameManager : MonoBehaviour
 
     public GameObject dayBackground;
     public GameObject nightBackground;
+
+    [Tooltip("Width of the game")] 
+    public GameCenterManager gameCenterManager;
     
     // --------------------------------------------------------------
     [Header("Progress")] 
@@ -54,7 +57,7 @@ public class GameManager : MonoBehaviour
     public float plasticHitSpeedImpact = 0.6f;
 
     [Tooltip("Percentage of enemy that is added to player after eating")]
-    public float enemyGrowFactor = 0.5f;
+    public float enemyGrowFactor = 0.1f;
 
     [Tooltip("Maximum points per enemy")]
     public int maximumPointsPerEnemy = 1000;
@@ -117,6 +120,7 @@ public class GameManager : MonoBehaviour
     private void InitGame()
     {
         state = State.Menu;
+        gameCenterManager.PostScoreOnLeaderBoard(PersistencyManager.instance.HighScore);
         ResetScore();
     }
 
@@ -235,7 +239,7 @@ public class GameManager : MonoBehaviour
                 DisplayManager.instance.Hilight(DisplayManager.instance.Home);
                 player.GetComponent<PlayerController>().Become(enemy);
                 Destroy(enemy);
-                
+                gameCenterManager.PostScoreOnLeaderBoard(PersistencyManager.instance.HighScore);
                 AudioManager.instance.Dead();
             }
         }
@@ -328,6 +332,7 @@ public class GameManager : MonoBehaviour
             state = State.NextLevel;
             AddWosCoin(level);
             AudioManager.instance.LevelCompleted();
+            gameCenterManager.PostScoreOnLeaderBoard(score);
         }
     }
 

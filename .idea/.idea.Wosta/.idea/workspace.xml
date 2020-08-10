@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:gitlabOrigin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Add GameCenterManager.cs">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCenterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameCenterManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +40,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TombstoneAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/tutorialHandeler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameCenterManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TouchHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,7 +79,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/tutorialHandeler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PersistencyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ucb_xcode_fastlane.json" />
         <option value="$PROJECT_DIR$/Assets/ucb_xcode_fastlane.json" />
@@ -71,6 +96,8 @@
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.vectorgraphics@2.0.0-preview.2/Runtime/VectorSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RandomSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameCenterManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +176,16 @@
       <workItem from="1593587946050" duration="1763000" />
       <workItem from="1595884333293" duration="199000" />
       <workItem from="1597070262275" duration="3000" />
+      <workItem from="1597070331009" duration="1612000" />
     </task>
+    <task id="LOCAL-00001" summary="Add GameCenterManager.cs">
+      <created>1597070389806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597070389806</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,12 +210,22 @@
       <path value="$PROJECT_DIR$/Assets/iMessageStickerUnity" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add GameCenterManager.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add GameCenterManager.cs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3349" y="370" key="SettingsEditor" timestamp="1591797320511">
       <screen x="2560" y="23" width="2560" height="1417" />
     </state>
     <state x="3349" y="370" key="SettingsEditor/-1280.912.1280.777/0.23.2560.1417/2560.23.2560.1417@2560.23.2560.1417" timestamp="1591797320511" />
+    <state x="320" y="665" key="Vcs.Push.Dialog.v2" timestamp="1597070393486">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="320" y="665" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597070393486" />
+    <state x="-1057" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1597071628006">
+      <screen x="-1440" y="-338" width="1440" height="2537" />
+    </state>
+    <state x="-1057" y="265" width="672" height="678" key="search.everywhere.popup/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597071628006" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

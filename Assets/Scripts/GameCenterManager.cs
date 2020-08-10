@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
 
-public class ScoreBoardManager : MonoBehaviour
+public class GameCenterManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,7 +13,7 @@ public class ScoreBoardManager : MonoBehaviour
     
     public bool loginSuccessful;
 
-    private string _leaderboardID = "LEADERBOARDNAME";
+    private string _leaderboardID = "com.unboxingsolutions.wostaHighScore";
 
     private void AuthenticateUser()
     {
