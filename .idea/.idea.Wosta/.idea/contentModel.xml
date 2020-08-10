@@ -26,6 +26,7 @@
           <e p="CrossfadingAudioSource.cs" t="Include" />
           <e p="DisplayManager.cs" t="Include" />
           <e p="FishMovement.cs" t="Include" />
+          <e p="GameCenterManager.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Hats.cs" t="Include" />
           <e p="LayerGenerator.cs" t="Include" />
