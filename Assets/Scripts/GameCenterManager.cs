@@ -37,7 +37,7 @@ public class GameCenterManager : MonoBehaviour
     
     public void PostScoreOnLeaderBoard(int myScore)
     {
-#if UNITY_IOS
+        #if UNITY_IOS
         if(loginSuccessful)
         {
             Social.ReportScore(myScore, _leaderboardID, (bool success) => {
@@ -67,7 +67,7 @@ public class GameCenterManager : MonoBehaviour
                 // handle success or failure
             });
         }
-#endif
+        #endif
     }
 
     public void ShowLeaderBord()
