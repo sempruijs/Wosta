@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Analytics;
 
@@ -136,6 +137,15 @@ public class GameManager : MonoBehaviour
         Menu();
     }
 
+
+    private void Update()
+    {
+        if (state == State.Playing && Input.GetAxis("Options") == 1)
+        {
+            Pause();
+        }
+    }
+
     public void Menu() {
         state = State.Menu;
         stateBeforeSettings = State.Menu;
@@ -207,6 +217,7 @@ public class GameManager : MonoBehaviour
         {
             state = State.Pause;
         }
+        DisplayManager.instance.Highlight(DisplayManager.instance.Resume);
         DisplayManager.instance.UpdateUi();
     }
     
@@ -346,7 +357,7 @@ public class GameManager : MonoBehaviour
             AddWosCoin(level);
             AudioManager.instance.LevelCompleted();
             gameCenterManager.PostScoreOnLeaderBoard(score);
-            
+            DisplayManager.instance.Highlight(DisplayManager.instance.NextLevel);
             DisplayManager.instance.UpdateUi();
         }
     }

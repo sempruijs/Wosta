@@ -24,8 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Check if hats are unlocked when you go to the next level instead of checking every frame">
+    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Refactor highlight function">
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlasticMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Stickers/Editor/StickersExport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/bd/01b350bb/Void.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Stickers/Editor/StickersBuildPostProcess.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Stickers/Editor/StickerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AccelerometerButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,9 +83,9 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hats.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1UhahiOZBb7dd4t0JrEY0k46C1O" />
@@ -177,7 +179,7 @@
       <workItem from="1597070331009" duration="6194000" />
       <workItem from="1597157373567" duration="1697000" />
       <workItem from="1614855029949" duration="362000" />
-      <workItem from="1620072291806" duration="1449000" />
+      <workItem from="1620072291806" duration="2140000" />
     </task>
     <task id="LOCAL-00001" summary="Add GameCenterManager.cs">
       <created>1597070389806</created>
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620073465921</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactor highlight function">
+      <created>1620074052635</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620074052635</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +294,8 @@
     <MESSAGE value="Update project to the 2020.3.4f1 version of unity" />
     <MESSAGE value="openLockers now isn't called every single frame" />
     <MESSAGE value="Check if hats are unlocked when you go to the next level instead of checking every frame" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check if hats are unlocked when you go to the next level instead of checking every frame" />
+    <MESSAGE value="Refactor highlight function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor highlight function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

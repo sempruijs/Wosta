@@ -62,20 +62,7 @@ public class DisplayManager : MonoBehaviour
     }
 
 
-    private void Update()
-    {
-        if (GameManager.instance.state == GameManager.State.Playing)
-        {
-            if (Input.GetAxis("Options") == 1)
-            {
-                GameManager.instance.Pause();
-                Highlight(Resume);
-            }
-        }
-        if (GameManager.instance.state == GameManager.State.NextLevel) {
-                Highlight(NextLevel);
-        }
-    }
+
 
     public void UpdateUi()
     {
