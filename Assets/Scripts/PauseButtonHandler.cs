@@ -72,7 +72,7 @@ public class PauseButtonHandler : MonoBehaviour
         else
         {
             GameManager.instance.Pause();
-            DisplayManager.instance.Hilight(DisplayManager.instance.Resume);
+            DisplayManager.instance.Highlight(DisplayManager.instance.Resume);
         }
     }
 

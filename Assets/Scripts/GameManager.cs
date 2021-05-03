@@ -248,7 +248,7 @@ public class GameManager : MonoBehaviour
             else
             {
                 state = State.Dead;
-                DisplayManager.instance.Hilight(DisplayManager.instance.Home);
+                DisplayManager.instance.Highlight(DisplayManager.instance.Home);
                 player.GetComponent<PlayerController>().Become(enemy);
                 Destroy(enemy);
                 gameCenterManager.PostScoreOnLeaderBoard(PersistencyManager.instance.HighScore);

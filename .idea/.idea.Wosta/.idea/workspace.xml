@@ -24,10 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="openLockers now isn't called every single frame">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hats.cs" afterDir="false" />
+    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Check if hats are unlocked when you go to the next level instead of checking every frame">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Stickers/Editor/PBX/Serializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PersistencyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TouchHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlerSupportIOS.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,6 +65,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TombstoneText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/crabMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusicManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/957A0141-9B78-42FF-9526-A51B7AC539B2/d5/e3dc3806/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Stickers/Editor/PBXProject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlasticMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -83,6 +83,7 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hats.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1UhahiOZBb7dd4t0JrEY0k46C1O" />
@@ -176,7 +177,7 @@
       <workItem from="1597070331009" duration="6194000" />
       <workItem from="1597157373567" duration="1697000" />
       <workItem from="1614855029949" duration="362000" />
-      <workItem from="1620072291806" duration="1104000" />
+      <workItem from="1620072291806" duration="1449000" />
     </task>
     <task id="LOCAL-00001" summary="Add GameCenterManager.cs">
       <created>1597070389806</created>
@@ -241,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620072850329</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Check if hats are unlocked when you go to the next level instead of checking every frame">
+      <created>1620073465921</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620073465921</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +284,8 @@
     <MESSAGE value="Game center now only works on IOS" />
     <MESSAGE value="Update project to the 2020.3.4f1 version of unity" />
     <MESSAGE value="openLockers now isn't called every single frame" />
-    <option name="LAST_COMMIT_MESSAGE" value="openLockers now isn't called every single frame" />
+    <MESSAGE value="Check if hats are unlocked when you go to the next level instead of checking every frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check if hats are unlocked when you go to the next level instead of checking every frame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

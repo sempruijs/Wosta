@@ -37,6 +37,8 @@ public class DisplayManager : MonoBehaviour
     public GameObject NextLevel;
     public GameObject Home;
     public GameObject PlayButton;
+
+    public EventSystem eventSystem;
     
     private readonly HashSet<GameManager.State> inGameStates = new HashSet<GameManager.State>()
     {
@@ -67,11 +69,11 @@ public class DisplayManager : MonoBehaviour
             if (Input.GetAxis("Options") == 1)
             {
                 GameManager.instance.Pause();
-                Hilight(Resume);
+                Highlight(Resume);
             }
         }
         if (GameManager.instance.state == GameManager.State.NextLevel) {
-                Hilight(NextLevel);
+                Highlight(NextLevel);
         }
     }
 
@@ -111,20 +113,20 @@ public class DisplayManager : MonoBehaviour
         }
     }
     
-    public void Hilight(GameObject button)
+    public void Highlight(GameObject button)
     {
-        GameObject.Find("EventSystem").GetComponent<EventSystem>().SetSelectedGameObject(button, null);
+        eventSystem.SetSelectedGameObject(button, null);
     }
 
     public void awayFromSettings()
     {
         if (GameManager.instance.stateBeforeSettings == GameManager.State.Pause)
         {
-            Hilight(Resume);
+            Highlight(Resume);
         }
         else if (GameManager.instance.stateBeforeSettings == GameManager.State.Menu)
         {
-             Hilight(PlayButton);           
+             Highlight(PlayButton);           
         }
     }
 }
