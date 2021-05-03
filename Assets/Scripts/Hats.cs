@@ -45,7 +45,6 @@ public class Hats : MonoBehaviour
 
    private void Update()
    {
-       openLockers();
        switch (GameManager.instance.level)
        {
            case 2:
