@@ -3899,8 +3899,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inGameMusic: {fileID: 479362620}
-  deathMusic: {fileID: 1269652825}
-  menuMusic: {fileID: 184306711}
+  deathMusic: {fileID: 1269652827}
+  menuMusic: {fileID: 184306713}
   whyHeIsSayingUghMusic: {fileID: 519914159}
   inGameMusicChangeRate: 25
 --- !u!1 &341134434

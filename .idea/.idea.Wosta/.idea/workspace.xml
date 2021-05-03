@@ -24,8 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Refactor the update function in DisplayManager.cs">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" afterDir="false" />
+    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Remove the GetComponent function in LevelManager.cs">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BackgroundMusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BackgroundMusicManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +88,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DisplayManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AccelerometerButtonHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundMusicManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1UhahiOZBb7dd4t0JrEY0k46C1O" />
@@ -179,7 +183,7 @@
       <workItem from="1597070331009" duration="6194000" />
       <workItem from="1597157373567" duration="1697000" />
       <workItem from="1614855029949" duration="362000" />
-      <workItem from="1620072291806" duration="2490000" />
+      <workItem from="1620072291806" duration="3382000" />
     </task>
     <task id="LOCAL-00001" summary="Add GameCenterManager.cs">
       <created>1597070389806</created>
@@ -265,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620074646806</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Remove the GetComponent function in LevelManager.cs">
+      <created>1620074908433</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620074908433</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +314,8 @@
     <MESSAGE value="Check if hats are unlocked when you go to the next level instead of checking every frame" />
     <MESSAGE value="Refactor highlight function" />
     <MESSAGE value="Refactor the update function in DisplayManager.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor the update function in DisplayManager.cs" />
+    <MESSAGE value="Remove the GetComponent function in LevelManager.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove the GetComponent function in LevelManager.cs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

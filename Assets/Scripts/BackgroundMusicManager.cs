@@ -13,10 +13,10 @@ public class BackgroundMusicManager : MonoBehaviour
     public GameObject inGameMusic;
 
     [Tooltip("Music after dying")]
-    public GameObject deathMusic;
+    public AudioSource deathMusic;
 
     [Tooltip("Music in menu")]
-    public GameObject menuMusic;
+    public AudioSource menuMusic;
 
     [Tooltip("Startup sound")]
     public GameObject whyHeIsSayingUghMusic;
@@ -37,8 +37,8 @@ public class BackgroundMusicManager : MonoBehaviour
     }
     
     private void Stop() {
-        deathMusic.GetComponent<AudioSource> ().Stop();
-        menuMusic.GetComponent<AudioSource> ().Stop();
+        deathMusic.Stop();
+        menuMusic.Stop();
         CancelInvoke(nameof(ChangeInGameMusic));
         foreach (CrossfadingAudioSource source in inGameMusic.GetComponents<CrossfadingAudioSource>()) {
             source.Stop();
