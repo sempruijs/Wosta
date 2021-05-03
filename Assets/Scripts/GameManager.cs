@@ -183,6 +183,7 @@ public class GameManager : MonoBehaviour
             case State.NextLevel:
                 state = State.Loading;
                 level++;
+                Hats.instance.UnlockHatsWhenNextLevel();
                 ToggleTime();
                 LoadLevel();
                 AudioManager.instance.Play();
@@ -345,6 +346,7 @@ public class GameManager : MonoBehaviour
             AddWosCoin(level);
             AudioManager.instance.LevelCompleted();
             gameCenterManager.PostScoreOnLeaderBoard(score);
+            
             DisplayManager.instance.UpdateUi();
         }
     }

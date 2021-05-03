@@ -24,7 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="Update project to the 2020.3.4f1 version of unity">
+    <list default="true" id="59cc378b-0556-4c1c-a915-ef5088f6f94f" name="Default Changelist" comment="openLockers now isn't called every single frame">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wosta/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hats.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,9 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ucb_xcode_fastlane_distribution.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ucb_xcode_fastlane_development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/LayoutElementEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Stickers/Editor/PBX/Serializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PersistencyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -70,6 +81,7 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hats.cs" />
     </changedPaths>
   </component>
@@ -164,7 +176,7 @@
       <workItem from="1597070331009" duration="6194000" />
       <workItem from="1597157373567" duration="1697000" />
       <workItem from="1614855029949" duration="362000" />
-      <workItem from="1620072291806" duration="377000" />
+      <workItem from="1620072291806" duration="1104000" />
     </task>
     <task id="LOCAL-00001" summary="Add GameCenterManager.cs">
       <created>1597070389806</created>
@@ -222,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620072423752</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="openLockers now isn't called every single frame">
+      <created>1620072850329</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620072850329</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +275,8 @@
     <MESSAGE value="Turn off Ues Storyboards for launch screen" />
     <MESSAGE value="Game center now only works on IOS" />
     <MESSAGE value="Update project to the 2020.3.4f1 version of unity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update project to the 2020.3.4f1 version of unity" />
+    <MESSAGE value="openLockers now isn't called every single frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="openLockers now isn't called every single frame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

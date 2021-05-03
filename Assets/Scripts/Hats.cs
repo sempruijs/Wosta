@@ -42,23 +42,7 @@ public class Hats : MonoBehaviour
        Unlock(8);
        Unlock(9);
    }
-
-   private void Update()
-   {
-       switch (GameManager.instance.level)
-       {
-           case 2:
-               Unlock(2);
-               break;
-           case 3:
-               Unlock(3);
-               break;
-           case 4:
-               Unlock(5);
-               break;
-       }
-   }
-
+   
    public void openLockers()
    {
        foreach (int hatId in PersistencyManager.instance.NormalHatIds)
@@ -79,6 +63,22 @@ public class Hats : MonoBehaviour
        noHat();
        hats[hatID * 2].SetActive(true);
        hats[hatID * 2 + 1].SetActive(true);                    
+   }
+
+   public void UnlockHatsWhenNextLevel()
+   {
+       switch (GameManager.instance.level)
+       {
+           case 2:
+               Unlock(2);
+               break;
+           case 3:
+               Unlock(3);
+               break;
+           case 4:
+               Unlock(5);
+               break;
+       }
    }
 
    public void noHat()
