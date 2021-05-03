@@ -4,7 +4,7 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
 
-    public GameObject[] layers;
+    public LayerGenerator[] layers;
 
     void Awake()
     {
@@ -20,7 +20,7 @@ public class LevelManager : MonoBehaviour
 
     public void CreateLevel() {
         foreach(var layer in layers) {
-            layer.GetComponent<LayerGenerator> ().Generate();
+            layer.Generate();
         }
     }
 }
